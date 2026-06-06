@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Denai's Gallery</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+  <h1>Welcome to Denai's Gallery</h1>
+  <p>In a world full of colors, my imagination flowing into art <br>Hello everyone, my name is Denaira Raisa and I love exploring new things.</p>
+            <a href="about.html" class="hero-btn">Get To Know More</a>
+        </div>
+    </section>
+
+    <!----- Course ----->
+    <section class="course">
+        <h1>My Interest</h1>
+        <p>I have a lot of interest in many stuff, haha. I just dont know what to put in here</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Movies</h3>
+                <p>I spend my free time watching  movies when I'm bored. I have a lots of fav movies i can't tell because it's too much. But I really love phsycological horror, fantasy, and probably Sci-fi. Dead Poets Society probably one of my fav movies so far.</p>
+            </div>
+            <div class="course-col">
+                <h3>Game</h3>
+                <p>I usually play Rhythm games on my phone, but I also play combat games like tekken on Playstation. I also love playing games with my friends. It was all begin when my uncle first taught me everything about games, he even let me borrow his Playstation 4 & 5 after my dad sell his Playstation 3.</p>
+            </div>
+            <div class="course-col">
+                <h3>Music</h3>
+                <p>Everyday feels like i can't live without music. I listen to any genre of music, not all of them honestly but I love expreiencing something new.I really love Pierce The Veil after getting into alt fashion. I also listen to Charli Xcx typa music. Can't lie i listened to Odetari. Malcolm Todd, Sombr, Steve Lacy, and many more. Mac Demarco, The Marias, Tyler the Creator, Laufey, Paramore, The Neighbourhood, Gorillaz, Twent One Pilot, Beabadoobee, PinkPantheress, Avril Lavigne, TV Girl, Crush 40. I also listen to J-Pop music like Utaite's and VOCALOID. My fav gotta be Ado, Eve, and ONE OK ROCK. Oh and i love Hatsune Miku and he friends, hahaha</p>
+        </div>
+    </section>
+
+    <!----- campus ----->
+    <section class="campus">
+        <h1>My Favourite Character</h1>
+        <p>These are some of my fav character i love rn. HIDUP BLONDE</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="image/ASSSSHH.jpg">
+                <div class="layer">
+                    <h3>ASH LYNX</h3>
+                    <p>Ash, come back we miss you. I wanna hug him so bad</p>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="image/cloud in field.jpg">
+                <div class="layer">
+                    <h3>CLOUD STRIFE</h3>
+                    <p>I love his best friend, haha. Who will be the cloud to my Tifa</p>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="image/mine 33.jpg">
+                <div class="layer">
+                    <h3>BAKUGOU KATSUKI</h3>
+                    <p>I love his character development. I relate to him so bad I started acting like him.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!----- Facilities ----->
+    <section class="facilities">
+        <h1>Activities</h1>
+        <p>I'm always active in many competitions and often perform before, both individual and with groups.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="image/DSC02713.JPG">
+                <h3>2nd Winner Traditional Music Creation in Banten 2024</h3>
+                <p>picture of me with my friends after performing.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/idp.JPG">
+                <h3>3rd Winner in 2024 and 2nd Winner in 2025 IDP Fest</h3>
+                <p>Our photo with the trophy and medal</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/solideo.jpg">
+                <h3>Runner Up Duta kebaya & </h3>
+                <p>Picture of me presenting the culture of Batik and Kebaya at Solideo high School.</p>
+            </div>
+        </div>
+    </section>
+
+    <!----- Call To Action ----->
+    <section class="cta">
+        <h1>I need money <br>I need a job</h1>
+        <a href="contact.html" class="hero-btn">CONTACT ME :3</a>
+    </section>
+
+    <!----- Footer ----->
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>Go Beyond <br>PLUS ULTRA!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by @denaira_raisa
+    </section>
+
+    <!----- JavaScript for Toggle Menu ----->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
